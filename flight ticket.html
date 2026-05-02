@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plane Ticket</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #9fc5e8, #ffffff);
+        color: #333;
+    }
+
+    .container {
+        width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        background: #5dd1c4;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 15px 0;
+    }
+
+    .section {
+        margin-top: 10px;
+    }
+
+    .label {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .value {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .col {
+        width: 23%;
+    }
+
+    .highlight {
+        background: #d9eaf7;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .plane {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .plane img {
+        width: 300px;
+        opacity: 0.9;
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="icon"></div>
+        <h1>Plane Ticket Purchase</h1>
+    </div>
+
+    <hr>
+
+    <!-- Booking Info -->
+    <div class="section">
+        <div class="label">Booking Date</div>
+        <div class="value">02/08/2025</div>
+    </div>
+
+    <div class="section">
+        <div class="value">Mark Kim</div>
+    </div>
+
+    <hr>
+
+    <!-- Flight Details -->
+    <h2>Flight Details</h2>
+
+    <div class="row">
+        <div class="col">
+            <div class="label">From</div>
+            <div class="value">London</div>
+        </div>
+        <div class="col">
+            <div class="label">Airline</div>
+            <div class="value">ACME AIRLINES</div>
+        </div>
+        <div class="col">
+            <div class="label">Departure Date</div>
+            <div class="value">03/08/2025</div>
+        </div>
+        <div class="col">
+            <div class="label">Arrival Date</div>
+            <div class="value">04/08/2025</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <div class="label">To</div>
+            <div class="value">Mexico</div>
+        </div>
+        <div class="col">
+            <div class="label">Flight Number</div>
+            <div class="value">BA86</div>
+        </div>
+        <div class="col">
+            <div class="label">Departure Terminal</div>
+            <div class="value">Heathrow Airport</div>
+        </div>
+        <div class="col">
+            <div class="label">Arrival Terminal</div>
+            <div class="value">Benito Juarez International Airport</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <div class="label">Seat Class</div>
+            <div class="value highlight">Business Class</div>
+        </div>
+        <div class="col">
+            <div class="label">Extra Baggage Allowance</div>
+            <div class="value highlight">8</div>
+        </div>
+        <div class="col">
+            <div class="label">Seat Number</div>
+            <div class="value">3-A</div>
+        </div>
+    </div>
+
+    <!-- Plane Image -->
+    <div class="plane">
+        <img src="d.png" alt="Plane">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="header">
+            <div class="icon"></div>
+            <h1>Plane Ticket Purchase</h1>
+        </div>
+        <hr>
+        <h2>Fare Breakdown</h2>
+        <div class="row">
+            <div class="col">
+                <div class="label">Base Fare</div>
+                <div class="value">100 $</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
